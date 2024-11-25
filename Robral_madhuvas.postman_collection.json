@@ -1,0 +1,239 @@
+{
+	"info": {
+		"_postman_id": "62fb3a99-e2a8-434d-a70d-8b69c11361b7",
+		"name": "Robral_madhuvas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "35985783"
+	},
+	"item": [
+		{
+			"name": "Product",
+			"item": [
+				{
+					"name": "products per page",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiOTQ3NGQ1ZGU4NzFiOTc1ODE5MWU3NjhiZWQ4YWE1M2VkNGIzMGIwYzdkZjY1MTc4NzU2OTRmMzZkMTg1N2Y4ZjE5ZTI0MWFkZGNlMGJmN2QiLCJpYXQiOjE3MzI0OTIwMTYuOTc3ODQ2LCJuYmYiOjE3MzI0OTIwMTYuOTc3ODQ5LCJleHAiOjE3NjQwMjgwMTYuOTY3MjIzLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.CAu6Wl0s7Eg9tUEWgbPd0hTNpG8gcxWcUwFD7PFRiSp35sxpwvUUMEKrS-k1Dn8aO5u0bSz0Z-e714FgxUJ5tpFvQPqvPYiEEsNcCyBHVybtxnyL5KPJxsXg_vwFM8TrWULqg1QMk9iVVrBMoZIBxg1P6oID4olsl81IWLfwBFHbWACktM8nqFhzu5YCyzjACCkrreUYszt3339--5kO6xb5O-4_j1_mrWK9zfIP8UKZwpzrJ8Qu2_G3qMis-vspPUnnJjyq-7Up_l4ioCrmw5grkdSW5vnn-6DWPuwwIMgLm5B8klDnkKuEpMjvbvIpwkqrtyMAbLsQYDoAUU11_SOP6aNLd4qWy9FYLUSTiUTV5Akcjtaee-g6jCl301wEXqH2V-tjcl6SJ_njKLZtC8kn46wPnlhdx5tgmOb7chHCWMXbIkFs7biW4IuKPC0sS_5lvTC_sap1uD9S661cKgt0j1C6IMmUuWa2PN9KxhPsG1V3_FjJF95bypW-H4JpXDxx7uHeMxAxnbiv698GtVh-G6kvFqk4L3tPGt75E_choyrSIxw5OD9pZp75yvXThh2esYItQmDtitDykyTe9LZ5IlbVBNSR7SEXUye0EcitO7M-kkwNBzQWalIBG0tEnYRhpxhnC1uxATuOX6QFL_ehL0_OsNcxnZWtnNhf-mo"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/product?per_page=5",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"product"
+							],
+							"query": [
+								{
+									"key": "per_page",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "show product",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMDE2NDhkZDJkNDE1NGIwYWQyYWI0NzRhZGZlMjE1YTI0ZTZmNjZhOGYxNmI4MTZiNGJlMDBmMjU4NTY3M2JjMzMzZGQ1NjBkYzI2OTI2ZDQiLCJpYXQiOjE3MzI0OTE2MDkuNzE2MzQ0LCJuYmYiOjE3MzI0OTE2MDkuNzE2MzQ2LCJleHAiOjE3NjQwMjc2MDkuNzEwNDY0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.ENfTInLuRSmgrAsRjzh813_s6tvbl3B2gC1IHxkbEorS7QibfllkS8hiCzijVgxSok7NGE-LqnHJX1PzzrB3OrA5PSwcjNQ3wSSp4As0fZS-vLRh9AtCnw7qL_BV-FEFZh_lrF3B246RMCQ6Kmtkn-0WCQxAnE63r5WLW_EsZ6NsuD9lGkRajdYBmOOIlNrO7Q9subn0MeUj4p-yepO0u1KaRArlFWUhZ7Mw0lHVly_LUNXvF-ovqMhj78ajzgjCjwIAdIOudTkUaKUnTDuuS-4Uqiu7LnPHt4ngKJVGE_90cEz-I4u2CX22NBzWv0WLWgoelUCwxP1_UjwKZ_k5A4zzIcZPiBNulw3kP0WqUiCLbVL6--iqz02wOugTg-06Uj5vuKi5BJSVZVhdQFOpMjvBnlKmvCFBwn0UYb2DS4jGmnrSDma-YFyk9htvQ69fI7-hLEQPVTKvafb8aQ4vBpeTCsorCtj2pmcmnq35Ov-A-ZOAEFe9mlMNlQMRpDKn7mB7x9vpTMxd_CyZwGmfGpHVUtqAffHKdsRdqBfeM9gAH4GgZsazEDAHjdfjXLxkDvkLdbgN_d3MGvW3XFg92Nu_NdaFCq1KGwqutJ1xdivpzevTzM0bSecPBsy2PaMur0SXhKg4I4dCsE2SSB9bfha0DooedDVgYpIE4cKIeYI"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": "{{url}}/product/8"
+					},
+					"response": []
+				},
+				{
+					"name": "Product",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMDE2NDhkZDJkNDE1NGIwYWQyYWI0NzRhZGZlMjE1YTI0ZTZmNjZhOGYxNmI4MTZiNGJlMDBmMjU4NTY3M2JjMzMzZGQ1NjBkYzI2OTI2ZDQiLCJpYXQiOjE3MzI0OTE2MDkuNzE2MzQ0LCJuYmYiOjE3MzI0OTE2MDkuNzE2MzQ2LCJleHAiOjE3NjQwMjc2MDkuNzEwNDY0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.ENfTInLuRSmgrAsRjzh813_s6tvbl3B2gC1IHxkbEorS7QibfllkS8hiCzijVgxSok7NGE-LqnHJX1PzzrB3OrA5PSwcjNQ3wSSp4As0fZS-vLRh9AtCnw7qL_BV-FEFZh_lrF3B246RMCQ6Kmtkn-0WCQxAnE63r5WLW_EsZ6NsuD9lGkRajdYBmOOIlNrO7Q9subn0MeUj4p-yepO0u1KaRArlFWUhZ7Mw0lHVly_LUNXvF-ovqMhj78ajzgjCjwIAdIOudTkUaKUnTDuuS-4Uqiu7LnPHt4ngKJVGE_90cEz-I4u2CX22NBzWv0WLWgoelUCwxP1_UjwKZ_k5A4zzIcZPiBNulw3kP0WqUiCLbVL6--iqz02wOugTg-06Uj5vuKi5BJSVZVhdQFOpMjvBnlKmvCFBwn0UYb2DS4jGmnrSDma-YFyk9htvQ69fI7-hLEQPVTKvafb8aQ4vBpeTCsorCtj2pmcmnq35Ov-A-ZOAEFe9mlMNlQMRpDKn7mB7x9vpTMxd_CyZwGmfGpHVUtqAffHKdsRdqBfeM9gAH4GgZsazEDAHjdfjXLxkDvkLdbgN_d3MGvW3XFg92Nu_NdaFCq1KGwqutJ1xdivpzevTzM0bSecPBsy2PaMur0SXhKg4I4dCsE2SSB9bfha0DooedDVgYpIE4cKIeYI"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Perter England light ",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": " legends selection and good looking",
+									"type": "text"
+								},
+								{
+									"key": "image",
+									"type": "file",
+									"src": "/C:/Users/madhu/OneDrive/Desktop/SR_township_final/shirt3.webp"
+								},
+								{
+									"key": "price",
+									"value": "2800",
+									"type": "text"
+								}
+							]
+						},
+						"url": "{{url}}/product"
+					},
+					"response": []
+				},
+				{
+					"name": "update product",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMDE2NDhkZDJkNDE1NGIwYWQyYWI0NzRhZGZlMjE1YTI0ZTZmNjZhOGYxNmI4MTZiNGJlMDBmMjU4NTY3M2JjMzMzZGQ1NjBkYzI2OTI2ZDQiLCJpYXQiOjE3MzI0OTE2MDkuNzE2MzQ0LCJuYmYiOjE3MzI0OTE2MDkuNzE2MzQ2LCJleHAiOjE3NjQwMjc2MDkuNzEwNDY0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.ENfTInLuRSmgrAsRjzh813_s6tvbl3B2gC1IHxkbEorS7QibfllkS8hiCzijVgxSok7NGE-LqnHJX1PzzrB3OrA5PSwcjNQ3wSSp4As0fZS-vLRh9AtCnw7qL_BV-FEFZh_lrF3B246RMCQ6Kmtkn-0WCQxAnE63r5WLW_EsZ6NsuD9lGkRajdYBmOOIlNrO7Q9subn0MeUj4p-yepO0u1KaRArlFWUhZ7Mw0lHVly_LUNXvF-ovqMhj78ajzgjCjwIAdIOudTkUaKUnTDuuS-4Uqiu7LnPHt4ngKJVGE_90cEz-I4u2CX22NBzWv0WLWgoelUCwxP1_UjwKZ_k5A4zzIcZPiBNulw3kP0WqUiCLbVL6--iqz02wOugTg-06Uj5vuKi5BJSVZVhdQFOpMjvBnlKmvCFBwn0UYb2DS4jGmnrSDma-YFyk9htvQ69fI7-hLEQPVTKvafb8aQ4vBpeTCsorCtj2pmcmnq35Ov-A-ZOAEFe9mlMNlQMRpDKn7mB7x9vpTMxd_CyZwGmfGpHVUtqAffHKdsRdqBfeM9gAH4GgZsazEDAHjdfjXLxkDvkLdbgN_d3MGvW3XFg92Nu_NdaFCq1KGwqutJ1xdivpzevTzM0bSecPBsy2PaMur0SXhKg4I4dCsE2SSB9bfha0DooedDVgYpIE4cKIeYI"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "updated name",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "updated description",
+									"type": "text"
+								},
+								{
+									"key": "image",
+									"type": "file",
+									"src": "/C:/Users/madhu/OneDrive/Pictures/background.jpg.jpeg"
+								},
+								{
+									"key": "price",
+									"value": "50",
+									"type": "text"
+								},
+								{
+									"key": "product_id",
+									"value": "9",
+									"type": "text"
+								}
+							]
+						},
+						"url": "{{url}}/product-update"
+					},
+					"response": []
+				},
+				{
+					"name": "delete product",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMDE2NDhkZDJkNDE1NGIwYWQyYWI0NzRhZGZlMjE1YTI0ZTZmNjZhOGYxNmI4MTZiNGJlMDBmMjU4NTY3M2JjMzMzZGQ1NjBkYzI2OTI2ZDQiLCJpYXQiOjE3MzI0OTE2MDkuNzE2MzQ0LCJuYmYiOjE3MzI0OTE2MDkuNzE2MzQ2LCJleHAiOjE3NjQwMjc2MDkuNzEwNDY0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.ENfTInLuRSmgrAsRjzh813_s6tvbl3B2gC1IHxkbEorS7QibfllkS8hiCzijVgxSok7NGE-LqnHJX1PzzrB3OrA5PSwcjNQ3wSSp4As0fZS-vLRh9AtCnw7qL_BV-FEFZh_lrF3B246RMCQ6Kmtkn-0WCQxAnE63r5WLW_EsZ6NsuD9lGkRajdYBmOOIlNrO7Q9subn0MeUj4p-yepO0u1KaRArlFWUhZ7Mw0lHVly_LUNXvF-ovqMhj78ajzgjCjwIAdIOudTkUaKUnTDuuS-4Uqiu7LnPHt4ngKJVGE_90cEz-I4u2CX22NBzWv0WLWgoelUCwxP1_UjwKZ_k5A4zzIcZPiBNulw3kP0WqUiCLbVL6--iqz02wOugTg-06Uj5vuKi5BJSVZVhdQFOpMjvBnlKmvCFBwn0UYb2DS4jGmnrSDma-YFyk9htvQ69fI7-hLEQPVTKvafb8aQ4vBpeTCsorCtj2pmcmnq35Ov-A-ZOAEFe9mlMNlQMRpDKn7mB7x9vpTMxd_CyZwGmfGpHVUtqAffHKdsRdqBfeM9gAH4GgZsazEDAHjdfjXLxkDvkLdbgN_d3MGvW3XFg92Nu_NdaFCq1KGwqutJ1xdivpzevTzM0bSecPBsy2PaMur0SXhKg4I4dCsE2SSB9bfha0DooedDVgYpIE4cKIeYI"
+							}
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": "{{url}}/product/9"
+					},
+					"response": []
+				},
+				{
+					"name": "search product",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMDE2NDhkZDJkNDE1NGIwYWQyYWI0NzRhZGZlMjE1YTI0ZTZmNjZhOGYxNmI4MTZiNGJlMDBmMjU4NTY3M2JjMzMzZGQ1NjBkYzI2OTI2ZDQiLCJpYXQiOjE3MzI0OTE2MDkuNzE2MzQ0LCJuYmYiOjE3MzI0OTE2MDkuNzE2MzQ2LCJleHAiOjE3NjQwMjc2MDkuNzEwNDY0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.ENfTInLuRSmgrAsRjzh813_s6tvbl3B2gC1IHxkbEorS7QibfllkS8hiCzijVgxSok7NGE-LqnHJX1PzzrB3OrA5PSwcjNQ3wSSp4As0fZS-vLRh9AtCnw7qL_BV-FEFZh_lrF3B246RMCQ6Kmtkn-0WCQxAnE63r5WLW_EsZ6NsuD9lGkRajdYBmOOIlNrO7Q9subn0MeUj4p-yepO0u1KaRArlFWUhZ7Mw0lHVly_LUNXvF-ovqMhj78ajzgjCjwIAdIOudTkUaKUnTDuuS-4Uqiu7LnPHt4ngKJVGE_90cEz-I4u2CX22NBzWv0WLWgoelUCwxP1_UjwKZ_k5A4zzIcZPiBNulw3kP0WqUiCLbVL6--iqz02wOugTg-06Uj5vuKi5BJSVZVhdQFOpMjvBnlKmvCFBwn0UYb2DS4jGmnrSDma-YFyk9htvQ69fI7-hLEQPVTKvafb8aQ4vBpeTCsorCtj2pmcmnq35Ov-A-ZOAEFe9mlMNlQMRpDKn7mB7x9vpTMxd_CyZwGmfGpHVUtqAffHKdsRdqBfeM9gAH4GgZsazEDAHjdfjXLxkDvkLdbgN_d3MGvW3XFg92Nu_NdaFCq1KGwqutJ1xdivpzevTzM0bSecPBsy2PaMur0SXhKg4I4dCsE2SSB9bfha0DooedDVgYpIE4cKIeYI"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/product-search?query=fas",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"product-search"
+							],
+							"query": [
+								{
+									"key": "query",
+									"value": "fas"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"madhuvas\",\r\n    \"email\":\"madhuvas@gmail.com\",\r\n    \"phone\":\"9000052319\",\r\n    \"password\":\"madhuvas\",\r\n    \"password_confirmation\":\"madhuvas\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{url}}/register"
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"madhuvas@gmail.com\",\r\n    \"password\":\"madhuvas\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{url}}/login"
+			},
+			"response": []
+		},
+		{
+			"name": "logout",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiOTQ3NGQ1ZGU4NzFiOTc1ODE5MWU3NjhiZWQ4YWE1M2VkNGIzMGIwYzdkZjY1MTc4NzU2OTRmMzZkMTg1N2Y4ZjE5ZTI0MWFkZGNlMGJmN2QiLCJpYXQiOjE3MzI0OTIwMTYuOTc3ODQ2LCJuYmYiOjE3MzI0OTIwMTYuOTc3ODQ5LCJleHAiOjE3NjQwMjgwMTYuOTY3MjIzLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.CAu6Wl0s7Eg9tUEWgbPd0hTNpG8gcxWcUwFD7PFRiSp35sxpwvUUMEKrS-k1Dn8aO5u0bSz0Z-e714FgxUJ5tpFvQPqvPYiEEsNcCyBHVybtxnyL5KPJxsXg_vwFM8TrWULqg1QMk9iVVrBMoZIBxg1P6oID4olsl81IWLfwBFHbWACktM8nqFhzu5YCyzjACCkrreUYszt3339--5kO6xb5O-4_j1_mrWK9zfIP8UKZwpzrJ8Qu2_G3qMis-vspPUnnJjyq-7Up_l4ioCrmw5grkdSW5vnn-6DWPuwwIMgLm5B8klDnkKuEpMjvbvIpwkqrtyMAbLsQYDoAUU11_SOP6aNLd4qWy9FYLUSTiUTV5Akcjtaee-g6jCl301wEXqH2V-tjcl6SJ_njKLZtC8kn46wPnlhdx5tgmOb7chHCWMXbIkFs7biW4IuKPC0sS_5lvTC_sap1uD9S661cKgt0j1C6IMmUuWa2PN9KxhPsG1V3_FjJF95bypW-H4JpXDxx7uHeMxAxnbiv698GtVh-G6kvFqk4L3tPGt75E_choyrSIxw5OD9pZp75yvXThh2esYItQmDtitDykyTe9LZ5IlbVBNSR7SEXUye0EcitO7M-kkwNBzQWalIBG0tEnYRhpxhnC1uxATuOX6QFL_ehL0_OsNcxnZWtnNhf-mo"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"url": "{{url}}/logout"
+			},
+			"response": []
+		}
+	]
+}
